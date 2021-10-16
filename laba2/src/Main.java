@@ -7,8 +7,7 @@ public class Main {
                 new Employee("Журо Никита", 18, "Senior C# Developer (TeamLead)",8, 2250, true)
         };
 
-        for (Employee employee : employees) {
-            WriterInfo.displayInfo(employee);
-        }
+        EmployeeUtil.displayAvgSalary(employees);
+        EmployeeUtil.displayEmployeesWithChildren(employees);
     }
 }
