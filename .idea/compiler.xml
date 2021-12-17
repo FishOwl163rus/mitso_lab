@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="laba5" />
+        <module name="laba5_part2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="laba5" target="11" />
+      <module name="laba5_part2" target="13" />
     </bytecodeTargetLevel>
   </component>
 </project>
